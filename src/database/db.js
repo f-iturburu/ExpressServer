@@ -1,9 +1,11 @@
 export const database = {
-    season1 : [],
-    season2 : [],
-    season3 : [],
-    season4 : [],
-    season5 : [],
-    season6 : [],
-    season7 : [],
+    seasons:{
+        1 : [],
+        2 : [],
+        3 : [],
+        4 : [],
+        5 : [],
+        6 : [],
+        7 : [],
+    }
 }

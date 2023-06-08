@@ -35,6 +35,4 @@ app.listen(PORT, async () => {
     "https://upload.wikimedia.org/wikipedia/en/5/54/Inuyasha_%28season_1%29.png",
     "https://youtu.be/KwCfHVGamn8"
   );
-
-database.season1.push(newEpisode,newEpisode2,newEpisode3)
 });

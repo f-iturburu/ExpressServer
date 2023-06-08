@@ -9,6 +9,7 @@ export class Episode {
         this.airingDate = airingDate;
         this.image = image;
         this.opening = opening
-        this.id = database.length;
+        database.seasons[season].push(this)
+        this.id = database.seasons[1].length;
     }
 }
