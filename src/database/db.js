@@ -7,5 +7,6 @@ export const database = {
         5 : [],
         6 : [],
         7 : [],
-    }
+    },
+    movies: []
 }

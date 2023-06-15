@@ -1,16 +1,14 @@
 import { database } from "../database/db.js";
 import * as crypto from 'crypto';
 
-export class Episode {
-    constructor(season,episodeNumber,title,summary,airingDate,image,opening){
-        this.season = season;
-        this.episode = episodeNumber;
+export class Movie {
+    constructor(title,summary,airingDate,image,trailer){
         this.title = title;
         this.summary = summary;
         this.airingDate = airingDate;
         this.image = image;
-        this.opening = opening
+        this.trailer = trailer
         this.id = crypto.randomUUID()
-        database.seasons[season].push(this)
+        database.movies.push(this)
     }
 }
